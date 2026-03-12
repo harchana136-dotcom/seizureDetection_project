@@ -1,8 +1,10 @@
-#Seizure Detection & Assistive Alert System
+Seizure Detection & Assistive Alert System
+
 📌 Project Overview
 Epileptic seizures often occur suddenly and can expose patients to serious injuries or delayed medical assistance. Continuous monitoring in daily life is difficult using conventional hospital-based systems such as EEG monitoring.
 This project presents a low-cost wearable assistive device that detects abnormal body movements and physiological signals associated with seizures. The system integrates motion sensing and heart rate monitoring to identify possible seizure events in real time. When abnormal patterns are detected, the device triggers immediate alerts through a buzzer and vibration motor, helping caregivers respond quickly and improving patient safety.
 The solution is designed using open-source hardware and software, making it affordable, scalable, and suitable for use in low-resource healthcare environments.
+
 🎯 Objectives
 The main objectives of this project are:
 • Detect abnormal body movements that resemble seizure activity
@@ -10,6 +12,7 @@ The main objectives of this project are:
 • Provide real-time alerts to assist patients and caregivers
 • Create a low-cost wearable assistive technology solution
 • Enable future expansion for remote monitoring and medical analysis
+
 🧩 System Architecture
 The system consists of the following main components:
 Motion Detection Module
@@ -26,6 +29,7 @@ Buzzer for audible alert
 Vibration motor for tactile feedback
 Data Output
 Serial monitor output for system monitoring and debugging
+
 ⚙️ Hardware Components
 Component
 Description
@@ -65,6 +69,7 @@ Buzzer
 Digital Pin 8
 Vibration Motor
 Digital Pin 9
+
 🧠 Working Principle
 The proposed system continuously monitors both body motion and heart rate signals.
 The MPU6050 sensor detects acceleration changes in three axes (X, Y, Z).
@@ -76,6 +81,7 @@ Once detected, the device activates:
 Buzzer alert
 Vibration motor
 These alerts notify nearby caregivers or the patient themselves.
+
 🚨 Alert Levels
 The system classifies motion patterns into three categories:
 Motion Level
@@ -92,21 +98,27 @@ Possible seizure event
 Buzzer + vibration motor
 📊 Output Monitoring
 During operation, sensor readings are displayed through the Arduino Serial Monitor, allowing developers and researchers to observe system behavior in real time.
+
 Example output:
 Copy code
 
-Heart: 520 Motion: 12000
+Heart: 520
+Motion: 12000
 Normal Condition
 
-Heart: 540 Motion: 18000
+Heart: 540 
+Motion: 18000
 Warning: Abnormal Movement
 
-Heart: 560 Motion: 30000
+Heart: 560 
+Motion: 30000
+
 ALERT: Possible Seizure Detected
 💻 Software Requirements
 • Arduino IDE
 • MPU6050 Library
 • USB Driver for Arduino (CH340 driver if required)
+
 🔬 Applications
 This system can be used for:
 • Epilepsy patient monitoring
@@ -114,6 +126,7 @@ This system can be used for:
 • Remote patient monitoring systems
 • Smart wearable medical devices
 • Early seizure detection research
+
 🚀 Future Improvements
 Future work can further improve the system by integrating:
 • Machine learning algorithms for accurate seizure prediction
@@ -121,8 +134,10 @@ Future work can further improve the system by integrating:
 • GPS-based emergency location tracking
 • Cloud data storage for long-term medical analysis
 • Integration with wearable devices such as smart bands
+
 🌍 Impact
 This project contributes to the development of affordable assistive healthcare technology that can improve the quality of life for individuals with epilepsy, especially in regions where continuous medical supervision is not available.
+
 👩‍💻 Contributors
 Project developed by:
 Team Members
