@@ -1,17 +1,27 @@
 Seizure Detection & Assistive Alert System
 
 📌 Project Overview
+
 Epileptic seizures often occur suddenly and can expose patients to serious injuries or delayed medical assistance. Continuous monitoring in daily life is difficult using conventional hospital-based systems such as EEG monitoring.
-This project presents a low-cost wearable assistive device that detects abnormal body movements and physiological signals associated with seizures. The system integrates motion sensing and heart rate monitoring to identify possible seizure events in real time. When abnormal patterns are detected, the device triggers immediate alerts through a buzzer and vibration motor, helping caregivers respond quickly and improving patient safety.
+
+This project presents a low-cost wearable assistive device that detects abnormal body movements and physiological signals associated with seizures. The system integrates motion sensing and heart rate monitoring to identify possible seizure events in real time.
+When abnormal patterns are detected, the device triggers immediate alerts through a buzzer and vibration motor, helping caregivers respond quickly and improving patient safety.
 The solution is designed using open-source hardware and software, making it affordable, scalable, and suitable for use in low-resource healthcare environments.
 
 🎯 Objectives
+
 The main objectives of this project are:
+
 • Detect abnormal body movements that resemble seizure activity
+
 • Monitor physiological signals such as heart rate
+
 • Provide real-time alerts to assist patients and caregivers
+
 • Create a low-cost wearable assistive technology solution
+
 • Enable future expansion for remote monitoring and medical analysis
+
 
 🧩 System Architecture
 The system consists of the following main components:
