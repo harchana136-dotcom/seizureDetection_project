@@ -24,6 +24,7 @@ The main objectives of this project are:
 
 
 🧩 System Architecture
+
 The system consists of the following main components:
 Motion Detection Module
 MPU6050 accelerometer and gyroscope sensor
@@ -41,6 +42,7 @@ Data Output
 Serial monitor output for system monitoring and debugging
 
 ⚙️ Hardware Components
+
 Component
 Description
 Arduino UNO
@@ -81,6 +83,7 @@ Vibration Motor
 Digital Pin 9
 
 🧠 Working Principle
+
 The proposed system continuously monitors both body motion and heart rate signals.
 The MPU6050 sensor detects acceleration changes in three axes (X, Y, Z).
 Sudden abnormal movements are analyzed to determine whether they resemble seizure-like motion.
@@ -93,6 +96,7 @@ Vibration motor
 These alerts notify nearby caregivers or the patient themselves.
 
 🚨 Alert Levels
+
 The system classifies motion patterns into three categories:
 Motion Level
 Condition
@@ -106,7 +110,9 @@ Buzzer warning
 Severe
 Possible seizure event
 Buzzer + vibration motor
+
 📊 Output Monitoring
+
 During operation, sensor readings are displayed through the Arduino Serial Monitor, allowing developers and researchers to observe system behavior in real time.
 
 Example output:
@@ -124,32 +130,50 @@ Heart: 560
 Motion: 30000
 
 ALERT: Possible Seizure Detected
+
 💻 Software Requirements
+
 • Arduino IDE
+
 • MPU6050 Library
+
 • USB Driver for Arduino (CH340 driver if required)
 
 🔬 Applications
+
 This system can be used for:
 • Epilepsy patient monitoring
+
 • Assistive healthcare technologies
+
 • Remote patient monitoring systems
+
 • Smart wearable medical devices
+
 • Early seizure detection research
 
 🚀 Future Improvements
+
 Future work can further improve the system by integrating:
+
 • Machine learning algorithms for accurate seizure prediction
+
 • Mobile application for caregiver notifications
+
 • GPS-based emergency location tracking
+
 • Cloud data storage for long-term medical analysis
+
 • Integration with wearable devices such as smart bands
 
 🌍 Impact
+
 This project contributes to the development of affordable assistive healthcare technology that can improve the quality of life for individuals with epilepsy, especially in regions where continuous medical supervision is not available.
 
 👩‍💻 Contributors
+
 Project developed by:
+
 Team Members
 H.Archana
 S.Kavyapriya
@@ -157,4 +181,5 @@ J.Mahalakshmi
 S.Sreenidhi
 
 📜 License
+
 This project is released as an open-source educational and research prototype to encourage further innovation in assistive medical technologies.
